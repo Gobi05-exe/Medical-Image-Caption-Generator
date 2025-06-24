@@ -5,7 +5,7 @@ This project provides a medical image captioning pipeline using LLaMA 3 with vis
 ## Features
 
 - Uses LLaMA 3 Vision model for multimodal image captioning
-- Fine-tuned on the ROCO dataset (radiological images)
+- Fine-tuned on the ROCO dataset (radiological images) using LoRA (Low-Rank Adaptation)
 - Includes interactive notebooks for:
   - Training / prompting with medical images
   - Caption generation and inference
@@ -13,15 +13,15 @@ This project provides a medical image captioning pipeline using LLaMA 3 with vis
 
 ## Notebooks
 
-- `roco-caption-inference.ipynb`: Run inference on medical images and generate captions using a pretrained LLaMA 3 Vision model.
-- `roco-caption-llama-3-2-vision.ipynb`: Core logic for preparing and prompting the LLaMA 3 Vision model with ROCO data.
+- `train.ipynb`
+- `inference.ipynb`
 
 ## Installation
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/roco-captioning.git
-   cd roco-captioning
+   git clone https://github.com/Gobi05-exe/Medical-Image-Caption-Generator.git
+   cd Medical-Image-Caption-Generator
    ```
 
 2. Install dependencies:
