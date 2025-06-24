@@ -13,8 +13,8 @@ This project provides a medical image captioning pipeline using LLaMA 3 with vis
 
 ## Notebooks
 
-- `train.ipynb`
-- `inference.ipynb`
+- `train.ipynb`: Uses Supervised Finetuning (SFT) and LoRA to finetune Llama-3.2-11B-Vision-Instruct model, loaded in 4-bit quantised form.
+- `inference.ipynb`: Runs inference on sample medical images to generate medical captions.
 
 ## Installation
 
@@ -38,7 +38,7 @@ This project provides a medical image captioning pipeline using LLaMA 3 with vis
 
 ## Dataset
 
-- **ROCO Dataset**: [https://huggingface.co/datasets/eltorio/ROCOv2-radiology]
+- **ROCO Dataset**: https://huggingface.co/datasets/eltorio/ROCOv2-radiology
 - You must download and preprocess the dataset according to your system and storage.
 
 ## License
